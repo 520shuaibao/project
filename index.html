@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>网页Loading</title>
+<link rel="stylesheet" type="text/css" href="./css/loading.css"/> 
+<style>
+
+</style>
+</head>
+<body  onLoad="location.href = url;">
+<!------------------header---------->
+<div class="header">
+			<h1>寶寶私人订制loading加载，稍等<span>waiting loading</span></h1>
+			<div class="head_header">
+				<a class="head_a1" href="personal.html" title="寶寶之家"><img src="./image/room.png"/><span>跳回主界面</span></a>
+				<a class="head_a1" href="#" onclick=” onClick=”javascript :history.go(-1);” title="返回"><img src="./image/decor.png"/><span>返回上级页面</span></a>
+			</div>
+</div>
+<!------------------------------->
+<script language="JavaScript">
+var url = '#';
+</script>
+<div class="con_div">
+<!-----------进度条-------->
+
+<form method="post" name="proccess">
+<script language=javascript>
+for(i=0;i<30;i++)document.write("<input class=proccess>")
+</script>
+</form>
+
+<!------------------loading----------->
+<div class="loading">Loading...</div>
+
+ <!-----------进度条滚动------------>
+<div align="center">
+<script language=JavaScript>
+var p=0,j=0;
+var c=new Array("lightskyblue","white")
+setInterval('proccess();',200)
+function proccess(){
+document.forms.proccess.elements[p].style.background=c[j];
+p+=1;
+if(p==30){
+window.location="personal.html";
+}}
+--></script>
+</div>
+</div>
+<!--------------------尾部----->
+<div class="footer">
+<p>如果你喜欢这个进度条，欢迎加我qq</p>
+<img src="./image/left.jpg"/>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<img src="./image/right.jpg"/>
+<div><p class="last_div">
+新手入门
+
+常见问题
+
+配送说明
+
+支付方式
+
+售后服务
+
+特色服务
+</p></div>
+</div>
+
+</body>
+</html>
