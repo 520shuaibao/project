@@ -203,18 +203,7 @@ a:hover{
 	height:504px;
 	
 }
-.top{
-    position: fixed;
-    left: 50%;
-    margin-left: 600px;
-	margin-top:350px;
-    height: 60px;
-    width: 60px;
-	line-height:21px;
-    background:#ccc;
-	text-align:center;
-	
-}
+
 .con_img1{
     background: url(../image/con_backtop.jpg) no-repeat top center scroll;
     width: 100%;
