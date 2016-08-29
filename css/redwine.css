@@ -452,6 +452,8 @@ h3{
 }
 .copybot img{
 	zoom:0.5;
+	    height: 36%;
+    width: 36%;
 }
 .copybot{
 	position:absolute;
