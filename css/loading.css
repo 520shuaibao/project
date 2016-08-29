@@ -145,3 +145,10 @@ body{
 	transform:translate(-50%,0);
     margin-top:-30px;
 }
+.last_p a{
+	color:white;
+	
+}
+.last_p a:hover{
+	color:red;
+}
