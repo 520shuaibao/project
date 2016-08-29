@@ -7,7 +7,7 @@
 body{
 	padding:0px;
 	margin:0px;
-	font-family:"΢���ź�";
+	font-family:"Î¢ÈíÑÅºÚ";
 }
 a{
 	text-decoration:none;
@@ -449,6 +449,8 @@ a:hover{
 }
 .copybot img{
 	zoom:0.5;
+	    height: 36%;
+    width: 36%;
 }
 .copybot{
 	position:absolute;
