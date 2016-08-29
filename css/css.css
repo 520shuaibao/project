@@ -689,15 +689,3 @@ a:hover{
 	top:30px;
 	margin-left:-500px;
 }
-.top{
-    position: fixed;
-    left: 50%;
-    margin-left: 600px;
-	margin-top:400px;
-    height: 60px;
-    width: 60px;
-	line-height:21px;
-    background:#ccc;
-	text-align:center;
-	
-}
