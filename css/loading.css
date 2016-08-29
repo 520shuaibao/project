@@ -9,7 +9,7 @@ body{
 .header{
 	height:183px;
 	width:100%;
-	background:white;
+	background:#66677C;
 	margin:0px auto;
 	text-align:center;
 }
@@ -21,10 +21,10 @@ body{
 	font-size: 2em;
 	line-height: 2;
 	margin-bottom: 0;
-	font-family: "Microsoft YaHei","ËÎÌå","Segoe UI", "Lucida Grande", Helvetica, Arial,sans-serif, FreeSans, Arimo;
+	font-family: "Microsoft YaHei","Ã‹ÃŽÃŒÃ¥","Segoe UI", "Lucida Grande", Helvetica, Arial,sans-serif, FreeSans, Arimo;
 }
 .header h1 span {
-	font-family: "Microsoft YaHei","ËÎÌå","Segoe UI", "Lucida Grande", Helvetica, Arial,sans-serif, FreeSans, Arimo;
+	font-family: "Microsoft YaHei","Ã‹ÃŽÃŒÃ¥","Segoe UI", "Lucida Grande", Helvetica, Arial,sans-serif, FreeSans, Arimo;
 	display: block;
 	font-size: 60%;
 	font-weight: 400;
