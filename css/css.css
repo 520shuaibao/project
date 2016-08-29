@@ -156,7 +156,7 @@
 body{
 	padding:0px;
 	margin:0px;
-	font-family:"Î¢ÈíÑÅºÚ";
+	font-family:"å¾®è½¯é›…é»‘";
 }
 a{
 	text-decoration:none;
@@ -360,7 +360,7 @@ a:hover{
 #logo_li2:hover ul{
 	display:block;
 }
-/*------------ÂÖ²¥--------------
+/*------------è½®æ’­--------------
 */
 .contenttop-left{
 	height:400px;
@@ -554,6 +554,8 @@ a:hover{
 }
 .copybot img{
 	zoom:0.5;
+	height: 36%;
+        width: 36%;
 }
 .copybot{
 	position:absolute;
@@ -566,50 +568,50 @@ a:hover{
 
 /*----------------------------*/
 .contenttop-left ul li {
-    opacity: 0;/*Í¸Ã÷¶ÈÎª²»Í¸Ã÷*/
-    filter: alpha(opacity=0);/*Í¸Ã÷¶ÈÎª²»Í¸Ã÷*/
+    opacity: 0;/*é€æ˜åº¦ä¸ºä¸é€æ˜*/
+    filter: alpha(opacity=0);/*é€æ˜åº¦ä¸ºä¸é€æ˜*/
 }
 
 .contenttop-left ul li{
-	-webkit-animation: round 20s linear infinite;/*animationÊôĞÔ£ºÃû×Ö£¬×Ü¹²Ó¦ÓÃÊ±¼ä£¬¶¯»­ËÙ¶È£¬ÂÖ²¥´ÎÊı£¬*/
+	-webkit-animation: round 20s linear infinite;/*animationå±æ€§ï¼šåå­—ï¼Œæ€»å…±åº”ç”¨æ—¶é—´ï¼ŒåŠ¨ç”»é€Ÿåº¦ï¼Œè½®æ’­æ¬¡æ•°ï¼Œ*/
             animation: round 20s linear infinite;
 	}
 @-webkit-keyframes round {
     5% {
         opacity: 1;
         filter: alpha(opacity=100);
-        /* 0 - 1Ãë µ­³ö*/
+        /* 0 - 1ç§’ æ·¡å‡º*/
     }
     20% {
         opacity: 1;
         filter: alpha(opacity=100);
-        /* 1- 5ÃëìoÖ¹*/
+        /* 1- 5ç§’éœæ­¢*/
     }
     25% {
         opacity: 0;
         filter: alpha(opacity=0);
-        /* 5-6Ãëµ­Èë*/
+        /* 5-6ç§’æ·¡å…¥*/
     }
-	/*keyframesÖ»ÄÜÓÃ°Ù·Ö±È±íÊ¾£¬100%/20s=5%£¬5%=1s£¬@-webkit-±íÊ¾ÓÎÀÀÆ÷ÄÚºË£¬¼æÈİ,ÏÂÃæ´úÂëÒâË¼Ò»Ñù*/
+	/*keyframesåªèƒ½ç”¨ç™¾åˆ†æ¯”è¡¨ç¤ºï¼Œ100%/20s=5%ï¼Œ5%=1sï¼Œ@-webkit-è¡¨ç¤ºæ¸¸è§ˆå™¨å†…æ ¸ï¼Œå…¼å®¹,ä¸‹é¢ä»£ç æ„æ€ä¸€æ ·*/
 }
 @keyframes round {
     5% {
         opacity: 1;
         filter: alpha(opacity=100);
-        /* 0 - 1Ãë µ­Èë*/
+        /* 0 - 1ç§’ æ·¡å…¥*/
     }
     20% {
         opacity: 1;
         filter: alpha(opacity=100);
-        /* 1- 5ÃëìoÖ¹*/
+        /* 1- 5ç§’éœæ­¢*/
     }
     25% {
         opacity: 0;
         filter: alpha(opacity=0);
-        /* 5-6Ãëµ­³ö*/
+        /* 5-6ç§’æ·¡å‡º*/
     }
 }
-/*Õâ¸öÄ¿Â¼ÏÂµÄµÚÎå¸öli£¬ÏÂÃæ·Ö±ğÊÇµÚËÄ¸ö£¬µÚÈı¸ö£¬ÒÔ´ËÀàÍÆ*/
+/*è¿™ä¸ªç›®å½•ä¸‹çš„ç¬¬äº”ä¸ªliï¼Œä¸‹é¢åˆ†åˆ«æ˜¯ç¬¬å››ä¸ªï¼Œç¬¬ä¸‰ä¸ªï¼Œä»¥æ­¤ç±»æ¨*/
 
 .contenttop-left ul li:nth-child(4) {
     -webkit-animation-delay: 15s;
@@ -672,7 +674,7 @@ a:hover{
 .proPrice strong,.proPrice span{
 	color:#CC0000;
 }
-/*--------------ÆäËû-------------*/
+/*--------------å…¶ä»–-------------*/
 .other{
 	height:680px;
 	width:1000px;
